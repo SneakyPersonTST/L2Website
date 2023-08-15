@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+section {
+  width: 100%;
+  background-color: gold;
+  margin: auto;
+  padding: 50px;
+
+}
+
+#image-1 {
+  background-image: url('image1.gif');
+  background-color: yellow;
+  background-position: center;
+  padding: 20px;
+  background-size: 500px;
+  max-width: 100%;
+  height: 300px;
+border:2px;
+  
+  background-attachment: scroll;
+  
+}
+
+#image-2 {
+  background-image: url('image2.');
+  background-size: 100%;
+  max-width: 100%;
+  height: 300px;
+   background-position: center;
+  background-attachment: scroll;
+}
+
+#image-3 {
+  background-image: url('image3.jpg');
+  background-size: 100%;
+  max-width: 100%;
+  height: 300px;
+  background-attachment: fixed;
+
+}
+
