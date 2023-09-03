@@ -78,6 +78,7 @@ background-attachment: scroll;
     }
   }
 
+
   /* display links vertically */
   @media screen and (max-width: 600px) {
     .topnav.responsive {
@@ -94,18 +95,17 @@ background-attachment: scroll;
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
-    display: block;
+    display: block;}}
 
     /* display links vertically */
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
+  
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;}}
   
-
-    
     .topnav.responsive a {
       float: none;
       display: block;
@@ -113,6 +113,8 @@ background-attachment: scroll;
     }
     
   }
+
+
 
   /*nav bar */
 
@@ -126,6 +128,7 @@ background-attachment: scroll;
   .topnav a {
     float: left;
     color: #f2f2f2;
+    background-color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -134,7 +137,7 @@ background-attachment: scroll;
 
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: gold;
     color: black;
   }
 
